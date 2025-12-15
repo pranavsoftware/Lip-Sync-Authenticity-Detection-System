@@ -321,16 +321,18 @@ The notebook is organized into **8 main sections** with **40 cells**:
 
 ### Generated Output Files
 
+All results are stored in the `results/` folder with the following outputs:
+
 | File | Description |
 |------|-------------|
-| `dataset_overview_report.png` | Main dataset visualization with 6 REAL + 6 FAKE samples |
-| `training_curves.png` | Loss and accuracy curves over epochs |
-| `confusion_matrix_clear.png` | Confusion matrix with counts and percentages |
-| `frequency_analysis_real_faces.png` | FFT spectrum comparison |
-| `feature_distributions.png` | Correlation and difference histograms |
-| `comprehensive_analysis_report.png` | Full analysis with multiple subjects |
-| `why_real_or_fake_report.png` | Detection explanations |
-| `detailed_analysis_*.png` | Individual case studies |
+| `result1.png` | Dataset Overview Report - Main dataset visualization with 6 REAL + 6 FAKE samples with mismatch highlighting |
+| `result2.png` | Training Curves - Loss and accuracy curves over training epochs |
+| `result3.png` | Confusion Matrix - Classification results with counts and percentages |
+| `result4.png` | Frequency Analysis - FFT spectrum comparison for manipulation artifact detection |
+| `result5.png` | Feature Distributions - Correlation and pixel difference histograms |
+| `result6.png` | Comprehensive Analysis Report - Full analysis across multiple subjects with detection metrics |
+| `result7.png` | Why Real or Fake Report - Visual explanations showing detection criteria and methodology |
+| `result8.png` | Detailed Analysis Case Study - Individual sample analysis with feature breakdown |
 
 ### Visualization Features
 
@@ -428,15 +430,15 @@ Patent Lip/Model/
 │   │   ├── real_sync/          # REAL sample images
 │   │   └── fake_desync/        # FAKE sample images
 │   └── [kaggle_dataset]/       # Downloaded GRID dataset
-├── outputs/
-│   ├── dataset_overview_report.png
-│   ├── training_curves.png
-│   ├── confusion_matrix_clear.png
-│   ├── frequency_analysis_real_faces.png
-│   ├── feature_distributions.png
-│   ├── comprehensive_analysis_report.png
-│   ├── why_real_or_fake_report.png
-│   └── detailed_analysis_*.png
+├── results/
+│   ├── result1.png             # Dataset Overview Report
+│   ├── result2.png             # Training Curves
+│   ├── result3.png             # Confusion Matrix
+│   ├── result4.png             # Frequency Analysis
+│   ├── result5.png             # Feature Distributions
+│   ├── result6.png             # Comprehensive Analysis Report
+│   ├── result7.png             # Why Real or Fake Report
+│   └── result8.png             # Detailed Analysis Case Study
 └── models/
     ├── best_model.pth          # Best validation checkpoint
     └── lipsync_authenticity_model.pth  # Final model with metadata
