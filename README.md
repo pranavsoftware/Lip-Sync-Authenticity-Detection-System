@@ -337,6 +337,10 @@ All results are stored in the `results/` folder with the following outputs:
 ### Visualization Features
 
 #### 1. Dataset Overview Report
+![Dataset Overview Report - REAL vs FAKE Samples](results/result1.png)
+*Figure 1: Dataset Overview Report with 6 diverse REAL samples (green borders) and 6 diverse FAKE samples (red borders) showing automatic mismatch highlighting with severity badges*
+
+Features:
 - 6 diverse REAL samples (green borders)
 - 6 diverse FAKE samples (red borders)
 - Automatic mismatch highlighting
@@ -344,7 +348,27 @@ All results are stored in the `results/` folder with the following outputs:
 - Statistics summary panel
 - Detection methodology legend
 
-#### 2. Comprehensive Analysis Grid
+#### 2. Training Curves
+![Training Curves - Loss and Accuracy Over Epochs](results/result2.png)
+*Figure 2: Model training progress showing loss and accuracy curves across all training epochs*
+
+#### 3. Confusion Matrix
+![Confusion Matrix - Classification Results](results/result3.png)
+*Figure 3: Detailed confusion matrix displaying true positives, false positives, true negatives, and false negatives with percentages*
+
+#### 4. Frequency Analysis
+![Frequency Analysis - FFT Spectrum Comparison](results/result4.png)
+*Figure 4: FFT spectrum analysis for manipulation artifact detection comparing REAL and FAKE samples*
+
+#### 5. Feature Distributions
+![Feature Distributions - Correlation and Pixel Differences](results/result5.png)
+*Figure 5: Histogram distributions showing frame correlation and pixel difference patterns between REAL and FAKE classes*
+
+#### 6. Comprehensive Analysis Report
+![Comprehensive Analysis Report - Multi-Subject Analysis](results/result6.png)
+*Figure 6: Full analysis across multiple subjects with lip region highlighting, correlation values, and performance metrics*
+
+Features:
 - Multiple subjects per category
 - Lip region highlighting with dashed boxes
 - Correlation values per sample
@@ -352,12 +376,20 @@ All results are stored in the `results/` folder with the following outputs:
 - Classification distribution pie chart
 - Feature comparison bar charts
 
-#### 3. Why Real or Fake Explanations
+#### 7. Why Real or Fake Report
+![Why Real or Fake Report - Detection Explanations](results/result7.png)
+*Figure 7: Visual explanations showing detection criteria and methodology for classification decisions*
+
+Features:
 - Visual arrows showing SAME vs DIFFERENT persons
 - Explanation boxes with specific metrics
 - Red mismatch zones on fake samples
 - Detection criteria comparison table
 - Feature comparison visualization
+
+#### 8. Detailed Analysis Case Study
+![Detailed Analysis - Individual Sample Breakdown](results/result8.png)
+*Figure 8: Comprehensive case study of individual samples with feature analysis and detection confidence breakdown*
 
 ---
 
