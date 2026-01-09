@@ -1,5 +1,25 @@
 # 🎬 Lip-Sync Authenticity Detection System
 
+## 🧾 Patent Information
+
+This project is associated with a patent application that has been successfully filed and published with the Office of the Controller General of Patents, Designs & Trade Marks, Government of India.
+
+- **Patent Title:** System for Lip-Sync Authenticity Detection Using Spatial, Spectral, and Deep-Learning Based Feature Fusion
+- **Patent Application Number:** 202541131828
+- **Status:** Patent Pending (Published under U/S 11A)
+- **Filing Date:** 25 December 2025
+- **Publication Date:** 02 January 2026
+- **Applicant:** Vellore Institute of Technology
+- **Mentor:** Dr. Jaishree Jaikrishnan
+- **Inventors:**
+  - Rayban Pranav Mahesh
+  - Ajitesh Sharma
+  - Aarya Ashish Nagvekar
+
+**Note:** This repository contains a research and implementation version of the patented system. Unauthorized commercial use of the patented methodology may require prior permission.
+
+---
+
 ## Patent-Ready Deep Learning Model for Real vs Fake Lip-Sync Classification
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
